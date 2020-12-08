@@ -2,7 +2,7 @@
 from numbers import Number
 from unittest import TestCase
 
-from src.main.lister import Lister
+from main.lister import Lister
 
 
 class ListerTest(TestCase):

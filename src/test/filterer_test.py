@@ -1,7 +1,7 @@
 # Created by Leon Hunter at 11:23 AM 10/24/2020
 from unittest import TestCase
 
-from src.main.filterer import Filterer
+from main.filterer import Filterer
 
 
 class FitlererTest(TestCase):
