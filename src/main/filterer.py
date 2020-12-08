@@ -37,8 +37,8 @@ class Filterer(object):
         b=a.upper()
         c=a+b
         cl=list(c)
-        #for i in c:
-         #   string_to_remove_from= string_to_remove_from.replace(i,"")
-        return self.remove_characters(string_to_remove_from,cl)
-
+        for i in c:
+            string_to_remove_from= string_to_remove_from.replace(i,"")
+        #return self.remove_characters(string_to_remove_from,cl)
+        return string_to_remove_from
 
